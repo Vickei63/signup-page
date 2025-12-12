@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(216, 122, 153);
+}
+#form{
+    width: 80vh;
+    background-color: white;
+    padding: 40px;
+    margin: 140px auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(165, 23, 23);
+}
+input{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+}
+#submitBtn{
+    background-color: blue;
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    width: 150px;
+}
+@media screen and (max-width: 612px){
+    #form{
+        width: 50vh;
+    }
+    
+}
